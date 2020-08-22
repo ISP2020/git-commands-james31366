@@ -71,7 +71,7 @@ project1/.git (It's a hidden folder in windows)
 
 Suppose your working copy of a repository contains these files and directories:
 
-```
+```Proposition 2
 README
 out/
      a.exe
@@ -209,7 +209,7 @@ test/
 
 5. You commit some files to `dev-food` and try to "push" them to Github, but it fails:
 
-   ```
+   ```Proposition 4.5
    cmd>  git checkout dev-food
    cmd>  git push
    fatal:  The current branch dev-food has no upstream branch.
@@ -257,7 +257,7 @@ test/
 
 - Command to show the history of a repository in the terminal (command) window. This form shows one line per commit, with a graph, and all branches.
 
-  ```
+  ```Show log as graph
   git log --oneline --graph --all
   ```
 
