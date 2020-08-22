@@ -84,33 +84,33 @@ test/
 
 1. What is the command to add README and _everything_ in the `src` directory to the git staging area?
 
-    ```add file to staging area
-    git add
-    ```
+   ```add file to staging area
+   git add
+   ```
 
 2. Write the command to add `test/d` to the staging area.
 
-    ```add specific file from inside folder
-    git add test/d
-    ```
+   ```add specific file from inside folder
+   git add test/d
+   ```
 
 3. Write a command to list files in the staging area.
 
-    ```Show status of that local repository
-    git status
-    ```
+   ```Show status of that local repository
+   git status
+   ```
 
 4. You decide you **don't** want to add `test/d` to git. Write the command to remove `test/d` from the staging area.
 
-    ```Discard change for specific file
-    git reset HEAD -- test/d
-    ```
+   ```Discard change for specific file
+   git reset HEAD -- test/d
+   ```
 
 5. Write the command to commit the staging area to the repository.
 
-    ```Commit a work
-    git commit -m "Commit Work message"
-    ```
+   ```Commit a work
+   git commit -m "Commit Work message"
+   ```
 
 6. You **never** want any files in the `out/` directory to be committed to git. Describe 2 steps to configure git for this:
 
@@ -128,24 +128,24 @@ test/
 
 7. What is the command to move `a`, `b`, and `c` from the `src` directory to the top-level directory of the project, so that they are also moved in the git repository?
 
-    ```Move multiple file and put it to top-level directory
-    git mv src/a a
-    git mv src/b b
-    git mv src/c c
-    ```
+   ```Move multiple file and put it to top-level directory
+   git mv src/a a
+   git mv src/b b
+   git mv src/c c
+   ```
 
 8. Commit this change with the message "moved src directory".
 
-    ```Commit change to git repo
-    git commit -m "moved src directory"
-    ```
+   ```Commit change to git repo
+   git commit -m "moved src directory"
+   ```
 
 9. If you change a **lot** of files, using `git add` for each one can be tedious. Write a command to add _all modified files_ to the staging area.  
    (After doing this you should use "git status" to verify you didn't add unintended files.)
 
-    ```Add all modified file from workspace to staging area
-    git add --all
-    ```
+   ```Add all modified file from workspace to staging area
+   git add --all
+   ```
 
 10. What is the command to delete the file `c` from both your working copy **and** the repository? (This stages the change, but it is not deleted from repo until you commit it.)
 
@@ -163,22 +163,22 @@ test/
 
 1. Use an editor to make some changes to file `a`. What is the command to view the **differences** between your working copy `a` and the current version in repository?
 
-    ```Show different of a file between working copy and recent commit
-    git diff a
-    ```
+   ```Show different of a file between working copy and recent commit
+   git diff a
+   ```
 
 2. You decide you don't like the changes to `a`. What is the command to **replace** your working copy of `a` with the current version in the repository?  
    (This also works if you accidentally _delete_ a file from your working copy.)
 
-    ```To get a file that accidentally delete in local from git repo
-    git reset HEAD --hard
-    ```
+   ```To get a file that accidentally delete in local from git repo
+   git reset HEAD --hard
+   ```
 
 3. How do you "undo" a commit? What is the command to move the "head" of the current branch to the **previous** commit?
 
-    ```Undo a commit
-    git reset --hard HEAD~1
-    ```
+   ```Undo a commit
+   git reset --hard HEAD~1
+   ```
 
 ## Part 4. Branch and Merge
 
