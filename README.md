@@ -2,12 +2,12 @@
 
 ## Contents
 
-1. [Basics](##Part-1.-Basics)
-2. [Adding and Changing Stuff](##part-2.-adding-and-changing-stuff)
-3. [Undoing Changes](##Part-3.-undoing-changes)
-4. [Branch and Merge](##Part-4.-Branch-and-Merge)
-5. [Viewing Changes and Commits](##Viewing-Changes-and-Commits)
-6. [Resources](##Resources)
+1. [Basics](#part-1-basics)
+2. [Adding and Changing Stuff](#part-2-adding-and-changing-stuff)
+3. [Undoing Changes](#part-3-undoing-changes)
+4. [Branch and Merge](#part-4-branch-and-merge)
+5. [Viewing Changes and Commits](#viewing-changes-and-commits)
+6. [Resources](#resources)
 
 ## Part 1. Basics
 
