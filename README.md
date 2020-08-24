@@ -1,5 +1,14 @@
 # Using Git
 
+## Contents
+
+1. [Basics](##Part-1.-Basics)
+2. [Adding and Changing Stuff](##part-2.-adding-and-changing-stuff)
+3. [Undoing Changes](##Part-3.-undoing-changes)
+4. [Branch and Merge](##Part-4.-Branch-and-Merge)
+5. [Viewing Changes and Commits](##Viewing-Changes-and-Commits)
+6. [Resources](##Resources)
+
 ## Part 1. Basics
 
 1. When working with Git locally, what are these? Describe each one in a sentence
