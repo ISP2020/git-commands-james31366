@@ -76,7 +76,9 @@ This creates a new subdirectory named .git that contains all of your necessary r
 project1/.git (It's a hidden folder in windows)
 ```
 
-### Part 2. Adding and Changing Stuff
+>**[Back to Contents](#contents)**
+
+## Part 2. Adding and Changing Stuff
 
 Suppose your working copy of a repository contains these files and directories:
 
@@ -168,6 +170,8 @@ test/
     git diff
     ```
 
+>**[Back to Contents](#contents)**
+
 ## Part 3. Undoing Changes
 
 1. Use an editor to make some changes to file `a`. What is the command to view the **differences** between your working copy `a` and the current version in repository?
@@ -188,6 +192,8 @@ test/
    ```Undo a commit
    git reset --hard HEAD~1
    ```
+
+>**[Back to Contents](#contents)**
 
 ## Part 4. Branch and Merge
 
@@ -262,6 +268,8 @@ test/
    and you push it then to solved it is to merge file.
    ```
 
+>**[Back to Contents](#contents)**
+
 ## Viewing Changes and Commits
 
 - Command to show the history of a repository in the terminal (command) window. This form shows one line per commit, with a graph, and all branches.
@@ -281,6 +289,8 @@ test/
   3. `gitk` shows diffs between commits
   4. Eclipse EGit shows side-by-side diffs and can merge interactively
 
+>**[Back to Contents](#contents)**
+
 ---
 
 ## Resources
@@ -294,3 +304,4 @@ test/
 [progitpdf]: https://progit2.s3.amazonaws.com/en/2016-03-22-f3531/progit-en.1084.pdf "Pro Git v.2 PDF on AWS. Longer, book format."
 [learngitinteractive]: https://learngitbranching.js.org "Interactive graphical git tutorial"
 [visualizegit]: http://git-school.github.io/visualizing-git/ "Online tools draws a graph of commits in a repo, as you type"
+>**[Back to Contents](#contents)**
