@@ -9,6 +9,10 @@
 5. [Viewing Changes and Commits](#viewing-changes-and-commits)
 6. [Resources](#resources)
 
+## Link to another documents
+
+1. [Remote Commands](remote-commands.md)
+
 ## Part 1. Basics
 
 1. When working with Git locally, what are these? Describe each one in a sentence
