@@ -19,7 +19,7 @@ Write the answers to these usage situations.
 3. Suppose your remote repository (Github or `origin`) has a branch named `beverages` that you don't have in your local repository. What is the command to create a new local branch as a copy of the remote `beverages` branch that **tracks** the remote branch?
    There are many commands that do this. For your own reference you may want to write several.
 
-   ```Create new branch that copy ad track from remote 'beverage'
+   ```Create new branch that copy and track from remote 'beverage'
    git checkout -b newbranch beverage
    ```
 
