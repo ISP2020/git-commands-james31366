@@ -80,7 +80,7 @@ This creates a new subdirectory named .git that contains all of your necessary r
 project1/.git (It's a hidden folder in windows)
 ```
 
->**[Back to Contents](#contents)**
+> **[Back to Contents](#contents)**
 
 ## Part 2. Adding and Changing Stuff
 
@@ -174,7 +174,7 @@ test/
     git diff
     ```
 
->**[Back to Contents](#contents)**
+> **[Back to Contents](#contents)**
 
 ## Viewing Changes and Commits
 
@@ -195,7 +195,7 @@ test/
   3. `gitk` shows diffs between commits
   4. Eclipse EGit shows side-by-side diffs and can merge interactively
 
->**[Back to Contents](#contents)**
+> **[Back to Contents](#contents)**
 
 ---
 
@@ -210,4 +210,5 @@ test/
 [progitpdf]: https://progit2.s3.amazonaws.com/en/2016-03-22-f3531/progit-en.1084.pdf "Pro Git v.2 PDF on AWS. Longer, book format."
 [learngitinteractive]: https://learngitbranching.js.org "Interactive graphical git tutorial"
 [visualizegit]: http://git-school.github.io/visualizing-git/ "Online tools draws a graph of commits in a repo, as you type"
->**[Back to Contents](#contents)**
+
+> **[Back to Contents](#contents)**

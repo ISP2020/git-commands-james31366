@@ -51,7 +51,7 @@ Write the answers to these usage situations.
    There are many commands that do this. For your own reference you may want to write several.
 
    ```Create new branch that copy and track from remote 'beverage'
-   git checkout -b newbranch beverage
+   git checkout -b newbranch origin/beverage
    ```
 
 8. Consider this situation:
@@ -73,4 +73,4 @@ Write the answers to these usage situations.
    and you push it then to solved it is to merge file.
    ```
 
->**[Back to README](README.md)**
+> **[Back to README](README.md)**

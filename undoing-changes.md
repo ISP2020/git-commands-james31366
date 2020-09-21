@@ -21,4 +21,4 @@ Write the answers to these usage situations.
    git reset --hard HEAD~1
    ```
 
->**[Back to README](README.md)**
+> **[Back to README](README.md)**

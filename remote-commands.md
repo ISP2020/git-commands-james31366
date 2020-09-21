@@ -20,7 +20,7 @@ Write the answers to these usage situations.
    There are many commands that do this. For your own reference you may want to write several.
 
    ```Create new branch that copy and track from remote 'beverage'
-   git checkout -b newbranch beverage
+   git checkout -b newbranch origin/beverage
    ```
 
 4. Consider this situation:
@@ -44,15 +44,15 @@ Write the answers to these usage situations.
 
 5. What are the steps to resolve the problem in the previous problem?
 
-    ```Resolve conflict
-    git pull --rebase origin master
-    git push origin master
-    ```
+   ```Resolve conflict
+   git pull --rebase origin master
+   git push origin master
+   ```
 
 6. Suppose you want to move origin to a different URL. This can happen if you change the name of a repo on Github, or transfer ownership from one person to another. What is the command to change the URL for origin to "https://github.com/your_name/newrepo".
 
-    ```Change remote URL
-    git set-url origin https://github.com/your_name/newrepo
-    ```
+   ```Change remote URL
+   git set-url origin https://github.com/your_name/newrepo
+   ```
 
->**[Back to README](README.md)**
+> **[Back to README](README.md)**
