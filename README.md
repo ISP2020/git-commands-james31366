@@ -75,10 +75,10 @@
 
 4. Suppose you create a git repository in a directory (folder) named "/project1". Where does git put the repository files for this project? Write the path to git's files.
 
-```Initializing a Repository in an Existing Directory
-This creates a new subdirectory named .git that contains all of your necessary repository files - a Git repository skeleton.
-project1/.git (It's a hidden folder in windows)
-```
+    ```Initializing a Repository in an Existing Directory
+    This creates a new subdirectory named .git that contains all of your necessary repository files - a Git repository skeleton.
+    project1/.git (It's a hidden folder in windows)
+    ```
 
 > **[Back to Contents](#contents)**
 
